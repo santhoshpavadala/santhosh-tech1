@@ -12,7 +12,7 @@ export const Hero = () => {
       </div>
 
       <div className="container">
-        <div className="max-w-3xl mx-auto text-center animate-fade-in-up">
+        <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass mb-6 text-sm">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75" />
@@ -22,7 +22,7 @@ export const Hero = () => {
           </div>
 
           <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-6">
-            Hi, I'm <span className="gradient-text">Your Name</span>
+            Hi, I'm <span className="gradient-text">Santhosh Pavadala</span>
           </h1>
           <p className="text-xl sm:text-2xl text-muted-foreground mb-4">
             Frontend Developer · Angular Specialist
@@ -47,9 +47,9 @@ export const Hero = () => {
 
           <div className="flex justify-center gap-3">
             {[
-              { icon: Github, href: "https://github.com/yourhandle", label: "GitHub" },
-              { icon: Linkedin, href: "https://linkedin.com/in/yourprofile", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:your.email@example.com", label: "Email" },
+              { icon: Github, href: "https://github.com/santhoshpavadala", label: "GitHub" },
+              { icon: Linkedin, href: "https://linkedin.com/in/santhosh-pavadala-5245ba206", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:santhoshpavadala123@gmail.com", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}

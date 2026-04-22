@@ -48,9 +48,9 @@ export const Contact = () => {
         <div className="grid md:grid-cols-5 gap-6 max-w-5xl mx-auto">
           <div className="md:col-span-2 space-y-3">
             {[
-              { icon: Mail, label: "Email", value: "your.email@example.com", href: "mailto:your.email@example.com" },
-              { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/yourprofile", href: "https://linkedin.com/in/yourprofile" },
-              { icon: Github, label: "GitHub", value: "github.com/yourhandle", href: "https://github.com/yourhandle" },
+              { icon: Mail, label: "Email", value: "santhoshpavadala123@gmail.com", href: "mailto:santhoshpavadala123@gmail.com" },
+              { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/santhosh-pavadala-5245ba206", href: "https://linkedin.com/in/santhosh-pavadala-5245ba206" },
+              { icon: Github, label: "GitHub", value: "github.com/santhoshpavadala", href: "https://github.com/santhoshpavadala" },
             ].map((c) => (
               <a
                 key={c.label}

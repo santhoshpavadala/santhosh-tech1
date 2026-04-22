@@ -13,7 +13,7 @@ export const About = () => {
   return (
     <section id="about" className="py-24">
       <div ref={ref} className="container reveal">
-        <div className="max-w-3xl mx-auto text-center mb-14">
+        <div className="max-w-4xl mx-auto text-center mb-14">
           <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-3">About Me</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
             Building the web, <span className="gradient-text">one component at a time</span>
