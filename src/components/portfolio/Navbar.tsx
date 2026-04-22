@@ -19,7 +19,7 @@ export const Navbar = () => {
     <header className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-5xl">
       <nav className="glass rounded-2xl px-4 py-3 flex items-center justify-between">
         <a href="#home" className="font-display font-bold text-lg gradient-text">
-          &lt;YN /&gt;
+          &lt; Santhosh /&gt;
         </a>
         <ul className="hidden md:flex items-center gap-1">
           {links.map((l) => (

@@ -39,7 +39,7 @@ export const Hero = () => {
               </a>
             </Button>
             <Button size="lg" variant="outline" asChild className="glass border-foreground/10">
-              <a href="/resume.pdf" download="Resume.pdf">
+              <a href="/Santhosh_Angular_Cv.pdf" download="Santhosh_Angular_Cv.pdf">
                 <Download className="mr-2 h-4 w-4" /> Download Resume
               </a>
             </Button>

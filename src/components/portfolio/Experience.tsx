@@ -3,24 +3,35 @@ import { Briefcase } from "lucide-react";
 
 const timeline = [
   {
-    role: "Senior Frontend Developer",
-    company: "Company Name",
-    period: "2022 — Present",
+    role: "Angular & React UI Developer",
+    company: "Swayam Infologic",
+    period: "Jul 2025 – Dec 2025 | Hyderabad",
     points: [
-      "Led Angular-based enterprise dashboards serving 10k+ daily users.",
-      "Improved Lighthouse performance from 62 → 95 via lazy loading & OnPush.",
-      "Built reusable component library reducing dev time by 30%.",
-      "Mentored 3 junior developers on Angular & RxJS best practices.",
+      "Developed responsive and pixel-perfect UI aligned with Figma designs for enterprise and government applications",
+      "Built complex forms and UI components using Angular Material and TypeScript",
+      "Integrated REST APIs and handled dynamic data rendering in frontend applications",
+      "Worked on reusable UI components and layouts using modern frontend practices",
+      "Contributed to React-based UI development using Tailwind CSS and Material UI",
+      "Implemented routing, navigation, and state-driven UI updates in React applications",
+      "Ensured responsive design and cross-browser compatibility across devices",
+      "Identified and resolved UI defects to improve application stability and user experience"
     ],
   },
   {
-    role: "Frontend Developer",
-    company: "Previous Company",
-    period: "2020 — 2022",
+    role: "Angular UI Developer",
+    company: "RMES India Pvt Ltd",
+    period: "Feb 2021 – May 2025 | Hyderabad",
     points: [
-      "Developed responsive SPAs using Angular, RxJS, and NgRx.",
-      "Collaborated with designers to deliver pixel-perfect UIs.",
-      "Integrated REST APIs with robust validation and error handling.",
+      "Led end-to-end UI development for enterprise and industrial monitoring applications using Angular",
+      "Designed scalable frontend architecture with modular, reusable components and global SCSS structure",
+      "Developed pixel-perfect, responsive UI based on Figma designs using Angular Material, SCSS, Flexbox, and CSS Grid",
+      "Built dynamic dashboards, data tables, and monitoring screens for industrial analytics",
+      "Integrated REST APIs and managed asynchronous data using RxJS",
+      "Implemented backend-driven dynamic theming using JSON configuration for runtime UI customization",
+      "Optimized performance using lazy loading, AOT compilation, and modular architecture",
+      "Ensured cross-browser compatibility and resolved high-priority UI/functional issues",
+      "Collaborated with backend (.NET), QA, and UI/UX teams in Agile environment",
+      "Contributed to CI/CD pipelines using Jenkins for smooth deployments"
     ],
   },
 ];

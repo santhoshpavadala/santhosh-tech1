@@ -3,36 +3,49 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Enterprise Analytics Dashboard",
-    description: "Real-time analytics platform with 50+ chart types, custom filters, and role-based access. Serves 10k+ daily users.",
-    tech: ["Angular", "RxJS", "D3.js", "Tailwind"],
-    github: "https://github.com/yourhandle/analytics-dashboard",
-    demo: "https://demo.example.com/analytics",
+    title: "RMEYE – Industrial Monitoring Platform",
+    description:
+      "Enterprise-level industrial monitoring platform with real-time dashboards, dynamic tables, and internationalization support. Built scalable UI components and handled async data flows using RxJS.",
+    tech: ["Angular", "TypeScript", "SCSS", "RxJS", "REST APIs"],
+    github: "#",
+    demo: "#",
     gradient: "from-primary to-primary-glow",
   },
   {
-    title: "E-commerce PWA",
-    description: "Progressive web app with offline support, push notifications, and Stripe payments. Lighthouse score 98.",
-    tech: ["Angular", "NgRx", "Angular Material", "Service Workers"],
-    github: "https://github.com/yourhandle/ecommerce-pwa",
-    demo: "https://demo.example.com/shop",
+    title: "RIL – Data Visualization Platform",
+    description:
+      "Data-driven visualization platform with interactive charts (bar, pie, line) using ECharts. Developed responsive, cross-browser compatible UI with reusable components and consistent theming.",
+    tech: ["Angular", "SCSS", "ECharts", "Responsive Design"],
+    github: "#",
+    demo: "#",
     gradient: "from-accent to-primary",
   },
   {
-    title: "Design System Library",
-    description: "Reusable component library with 40+ components, themed variants, and Storybook docs. Used across 5 products.",
-    tech: ["Angular", "SCSS", "Storybook", "Jest"],
-    github: "https://github.com/yourhandle/design-system",
-    demo: "https://demo.example.com/storybook",
+    title: "GANZ – Dynamic Theming Framework",
+    description:
+      "Implemented backend-driven dynamic theming using JSON configuration, enabling runtime UI customization without code changes. Improved scalability and reusability across multiple applications.",
+    tech: ["Angular", "SCSS", "JSON", "Theming"],
+    github: "#",
+    demo: "#",
     gradient: "from-primary-glow to-accent",
   },
   {
-    title: "Real-time Collaboration Tool",
-    description: "Multi-user document editor with live cursors, comments, and version history powered by WebSockets.",
-    tech: ["Angular", "RxJS", "WebSockets", "Material UI"],
-    github: "https://github.com/yourhandle/collab-tool",
-    demo: "https://demo.example.com/collab",
+    title: "ZATCA – Government Tax Platform",
+    description:
+      "Built pixel-perfect, responsive UI aligned with Figma designs. Developed complex forms with Angular Material, integrated REST APIs, and resolved high-priority UI issues.",
+    tech: ["Angular", "Angular Material", "TypeScript", "REST APIs"],
+    github: "#",
+    demo: "#",
     gradient: "from-primary to-accent",
+  },
+  {
+    title: "GBB – Enterprise React Application",
+    description:
+      "Developed modern UI architecture using Tailwind CSS and Material UI. Built reusable components, handled API-driven data, and implemented routing for scalable frontend applications.",
+    tech: ["React", "Tailwind CSS", "Material UI", "REST APIs"],
+    github: "#",
+    demo: "#",
+    gradient: "from-accent to-primary-glow",
   },
 ];
 
