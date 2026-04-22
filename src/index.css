@@ -13,9 +13,9 @@
     --popover: 0 0% 100%;
     --popover-foreground: 230 25% 12%;
 
-    --primary: 250 84% 60%;
+    --primary: 217 91% 55%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 270 90% 70%;
+    --primary-glow: 199 95% 65%;
 
     --secondary: 220 20% 94%;
     --secondary-foreground: 230 25% 12%;
@@ -23,7 +23,7 @@
     --muted: 220 20% 94%;
     --muted-foreground: 230 12% 45%;
 
-    --accent: 200 95% 60%;
+    --accent: 190 95% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -31,21 +31,21 @@
 
     --border: 230 20% 88%;
     --input: 230 20% 88%;
-    --ring: 250 84% 60%;
+    --ring: 217 91% 55%;
 
     --radius: 1rem;
 
-    --gradient-primary: linear-gradient(135deg, hsl(250 84% 60%), hsl(270 90% 70%));
-    --gradient-accent: linear-gradient(135deg, hsl(200 95% 60%), hsl(250 84% 60%));
-    --gradient-mesh: radial-gradient(at 20% 20%, hsl(250 84% 60% / 0.25) 0px, transparent 50%),
-                     radial-gradient(at 80% 0%, hsl(270 90% 70% / 0.2) 0px, transparent 50%),
-                     radial-gradient(at 80% 80%, hsl(200 95% 60% / 0.2) 0px, transparent 50%);
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 55%), hsl(199 95% 65%));
+    --gradient-accent: linear-gradient(135deg, hsl(190 95% 55%), hsl(217 91% 55%));
+    --gradient-mesh: radial-gradient(at 20% 20%, hsl(217 91% 55% / 0.25) 0px, transparent 50%),
+                     radial-gradient(at 80% 0%, hsl(199 95% 65% / 0.2) 0px, transparent 50%),
+                     radial-gradient(at 80% 80%, hsl(190 95% 55% / 0.2) 0px, transparent 50%);
 
     --glass-bg: 0 0% 100% / 0.55;
     --glass-border: 0 0% 100% / 0.6;
-    --shadow-glass: 0 8px 32px hsl(250 84% 60% / 0.12);
-    --shadow-elegant: 0 20px 60px -20px hsl(250 84% 60% / 0.35);
-    --shadow-glow: 0 0 60px hsl(270 90% 70% / 0.4);
+    --shadow-glass: 0 8px 32px hsl(217 91% 55% / 0.12);
+    --shadow-elegant: 0 20px 60px -20px hsl(217 91% 55% / 0.35);
+    --shadow-glow: 0 0 60px hsl(199 95% 65% / 0.4);
 
     --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -60,9 +60,9 @@
     --popover: 230 25% 10%;
     --popover-foreground: 220 20% 96%;
 
-    --primary: 260 90% 70%;
+    --primary: 213 94% 68%;
     --primary-foreground: 230 30% 6%;
-    --primary-glow: 280 95% 75%;
+    --primary-glow: 195 95% 70%;
 
     --secondary: 230 20% 14%;
     --secondary-foreground: 220 20% 96%;
@@ -70,7 +70,7 @@
     --muted: 230 20% 14%;
     --muted-foreground: 220 15% 65%;
 
-    --accent: 200 95% 65%;
+    --accent: 188 95% 60%;
     --accent-foreground: 230 30% 6%;
 
     --destructive: 0 70% 55%;
@@ -78,19 +78,19 @@
 
     --border: 230 20% 18%;
     --input: 230 20% 18%;
-    --ring: 260 90% 70%;
+    --ring: 213 94% 68%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(260 90% 70%), hsl(280 95% 75%));
-    --gradient-accent: linear-gradient(135deg, hsl(200 95% 65%), hsl(260 90% 70%));
-    --gradient-mesh: radial-gradient(at 20% 20%, hsl(260 90% 70% / 0.3) 0px, transparent 50%),
-                     radial-gradient(at 80% 0%, hsl(280 95% 75% / 0.25) 0px, transparent 50%),
-                     radial-gradient(at 80% 80%, hsl(200 95% 65% / 0.25) 0px, transparent 50%);
+    --gradient-primary: linear-gradient(135deg, hsl(213 94% 68%), hsl(195 95% 70%));
+    --gradient-accent: linear-gradient(135deg, hsl(188 95% 60%), hsl(213 94% 68%));
+    --gradient-mesh: radial-gradient(at 20% 20%, hsl(213 94% 68% / 0.3) 0px, transparent 50%),
+                     radial-gradient(at 80% 0%, hsl(195 95% 70% / 0.25) 0px, transparent 50%),
+                     radial-gradient(at 80% 80%, hsl(188 95% 60% / 0.25) 0px, transparent 50%);
 
     --glass-bg: 230 25% 12% / 0.55;
     --glass-border: 230 30% 30% / 0.4;
     --shadow-glass: 0 8px 32px hsl(0 0% 0% / 0.4);
-    --shadow-elegant: 0 20px 60px -20px hsl(260 90% 70% / 0.5);
-    --shadow-glow: 0 0 80px hsl(280 95% 75% / 0.35);
+    --shadow-elegant: 0 20px 60px -20px hsl(213 94% 68% / 0.5);
+    --shadow-glow: 0 0 80px hsl(195 95% 70% / 0.35);
   }
 }
 
